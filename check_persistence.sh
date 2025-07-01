@@ -13,3 +13,6 @@ fi
 
 echo "Checking R random package"
 R --no-save -e 'library(random); random::randomNumbers()'
+
+echo "Checking contents in home"
+cat ~/persistence-test
